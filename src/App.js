@@ -16,6 +16,7 @@ export default function App() {
     currentTime: 0,
     duration: 0
   });
+  console.log(currentSong.src)
   const [libraryStatus, setLibraryStatus] = useState(false);
   const timeUpdateHandler = (e) => {
     const curr = e.target.currentTime;
